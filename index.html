@@ -4,8 +4,51 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign Up Form</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
+	<!-- for icons social-media: -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
 </head>
+
 <body>
-	
+
+	<div class="container">
+		<div class="form-wrapper">
+			<div class="banner">
+				<h1>Hello, friend!</h1>
+				<p>Enter your personal details and start your work</p>
+			</div>
+			<div class="green-bg">
+				<button class="button">Sign Up</button>
+			</div>
+
+			<form class="signup-form">
+				<h1>Create Account</h1>
+				<div class="social-media">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+				<p>or use your email for registration</p>
+
+				<div class="input-group">
+					<i class="fas fa-user"></i>
+					<input type="text" placeholder="Name">
+				</div>
+				<div class="input-group">
+					<i class="fas fa-envelope"></i>
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="input-group">
+					<i class="fas fa-lock"></i>
+					<input type="password" placeholder="Password">
+				</div>
+				<button type="button">Sign Up</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
